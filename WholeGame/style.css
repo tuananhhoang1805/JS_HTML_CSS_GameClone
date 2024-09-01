@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: url("./Image/mario-bg.jpg");
+  background-size: cover;
+}
+
+#board {
+  width: 540px;
+  height: 540px;
+  background: url("./Image/soil.png");
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#board div {
+  width: 180px;
+  height: 180px;
+  background: url("./Image/pipe.png");
+  background-size: cover;
+}
+
+#board div img {
+  height: 100px;
+  width: 100px;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+
+#newGame{
+    display: none;
+    padding: 10px 18px;
+    margin: 20px auto;
+    background-color: aliceblue;
+}
